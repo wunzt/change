@@ -11,7 +11,7 @@ dimes = (prime % 25) // 10
 nickels = ((prime - (quarters * 25)) % 10) // 5
 pennies = (prime % 5) // 1
 print("Your change will be:")
-print("Q: ", quarters)
-print("D: ", dimes)
-print("N: ", nickels)
-print("P: ", pennies)
+print("Q:", quarters)
+print("D:", dimes)
+print("N:", nickels)
+print("P:", pennies)
