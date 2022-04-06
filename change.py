@@ -5,7 +5,7 @@
 #   fewest possible coins
 
 print("Please enter an amount in cents less than a dollar.")
-prime = float(input())
+prime = int(input())
 quarters = prime // 25
 dimes = (prime % 25) // 10
 nickels = ((prime - (quarters * 25)) % 10) // 5
